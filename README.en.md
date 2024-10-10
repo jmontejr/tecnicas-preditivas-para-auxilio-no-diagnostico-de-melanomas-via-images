@@ -10,4 +10,4 @@ This repository contains the source code of the implementations of the experimen
 **Department:** Department of Statistics and Computer Science - DEINFO  
 **Course:** Bachelor's Degree in Information Systems  
 **Location and Date of Publication:** Recife, 2024  
-**Defended and Approved on:** Octuber 02, 2024  
+**Defended and Approved on:** October 02, 2024  
