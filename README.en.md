@@ -19,6 +19,7 @@ This repository contains the source code of the implementations of the experimen
 **Course:** Bachelor's Degree in Information Systems  
 **Location and Date of Publication:** Recife, 2024  
 **Defended and Approved on:** October 02, 2024  
+**URI**: [https://repository.ufrpe.br/handle/123456789/6372](https://repository.ufrpe.br/handle/123456789/6372)
 
 ## Abstract
 

@@ -19,6 +19,7 @@ Este repositório contém o código fonte das implementações dos experimentos 
 **Curso:** Curso de Bacharelado em Sistemas de Informação  
 **Local e data de publicação:** Recife, 2024  
 **Defendido e aprovado em:** 02/10/2024  
+**URI**: [https://repository.ufrpe.br/handle/123456789/6372](https://repository.ufrpe.br/handle/123456789/6372)
 
 ## Resumo
 
