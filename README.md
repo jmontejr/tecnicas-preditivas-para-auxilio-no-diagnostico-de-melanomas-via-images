@@ -9,6 +9,8 @@ Este repositório contém o código fonte das implementações dos experimentos 
 - [Detalhes do projeto](#detalhes-do-projeto)
 - [Resumo](#resumo)
   - [Palavras-chave](#palavras-chave)
+- [Conjunto de dados](#conjunto-de-dados)
+  - [Como encontrar e utilizar os dados para reproduzir este trabalho](#como-encontrar-e-utilizar-os-dados-para-reproduzir-este-trabalho)
 
 ## Detalhes do projeto
 
@@ -28,3 +30,13 @@ O câncer de pele é o tipo mais comum de câncer no mundo, dividido em dois tip
 ### Palavras-chave
 
 Câncer de Pele, Aprendizado de Máquina, Técnicas de Comitês, Redes Neurais Convolucionais, Aprendizado por Transferência.
+
+## Conjunto de dados
+
+Para o experimento, foram escolhidas as imagens do arquivo do [ISIC Challenge](https://challenge.isic-archive.com/). Foram utilizadas as 2.5331 imagens do conjunto de treinamento do desafio [ISIC Challenge 2019](https://challenge.isic-archive.com/data/#2019), pois possuem a Ground Truth, que é essencial para garantir a precisão e confiabilidade dos dados.
+
+### Como encontrar e utilizar os dados para reproduzir este trabalho?
+
+Devido ao tamanho do conjunto de dados, os arquivos contendo as imagens das lesões dermatoscópicas não foram incluídos neste repositório. No entanto, esses arquivos podem ser encontrados na página oficial do desafio: [ISIC Challenge 2019 - Training Data](https://isic-challenge-data.s3.amazonaws.com/2019/ISIC_2019_Training_Input.zip). O arquivo com a Ground Truth de treinamento está disponível em `src/data/ISIC_2019_Training_GroundTruth.csv`, além de poder ser acessado na página oficial do desafio, assim como as imagens.
+
+Ao baixar os arquivos, as imagens devem ser colocadas na pasta `src/data/images` para que os experimentos possam ser reproduzidos.

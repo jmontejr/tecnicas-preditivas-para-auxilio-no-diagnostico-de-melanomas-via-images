@@ -9,6 +9,8 @@ This repository contains the source code of the implementations of the experimen
 - [Project Details](#project-details)
 - [Abstract](#abstract)
   - [Keywords](#keywords)
+- [Dataset](#dataset)
+  - [How to find and use the data to reproduce this work](#how-to-find-and-use-the-data-to-reproduce-this-work)
 
 ## Project Details
 
@@ -28,3 +30,15 @@ Skin cancer is the most common type of cancer worldwide, divided into two main t
 ### Keywords
 
 Skin Cancer, Machine Learning, Ensemble Techniques, Convolutional Neural Networks, Transfer Learning.
+
+Sure! Here’s the translated content:
+
+## Dataset
+
+For the experiment, images from the [ISIC Challenge](https://challenge.isic-archive.com/) archive were chosen. A total of 25,331 images from the training set of the [ISIC Challenge 2019](https://challenge.isic-archive.com/data/#2019) were used, as they include the Ground Truth, which is essential for ensuring the accuracy and reliability of the data.
+
+### How to find and use the data to reproduce this work?
+
+Due to the size of the dataset, the files containing images of dermatoscopic lesions were not included in this repository. However, these files can be found on the official challenge page: [ISIC Challenge 2019 - Training Data](https://isic-challenge-data.s3.amazonaws.com/2019/ISIC_2019_Training_Input.zip). The training Ground Truth file is available at `src/data/ISIC_2019_Training_GroundTruth.csv` and can also be accessed on the official challenge page, along with the images.
+
+When downloading the files, the images should be placed in the `src/data/images` folder for the experiments to be reproduced.
